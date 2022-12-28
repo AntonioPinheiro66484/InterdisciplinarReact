@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import Cadastro from './pages/Cadastro/Cadastro';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import { AuthProvider } from './context/AuthContext'
 import {useAuthentication} from './hooks/useAuthentication'
 import { useState, useEffect } from 'react';
@@ -27,15 +28,8 @@ function App() {
     <> 
       <AuthProvider value={{user}}>
       <BrowserRouter>
-        {user && <NavBar />}
-        <h1>Laboratório de Desenvolvimento Web</h1>
-        <main className='container'>
-        <Routes>
-        <Route path='/perfil' element={user ? <Perfil /> : <Navigate to='/' />} /> 
-          <Route path='/' element={!user ? <Home /> : <Navigate to='/perfil'/>}  />
-          <Route path='/cadastro' element={<Cadastro />} />
-        </Routes>
-        </main>
+      <Header/>
+      <NavBar/>
         <Footer />
       </BrowserRouter>
       </AuthProvider>
