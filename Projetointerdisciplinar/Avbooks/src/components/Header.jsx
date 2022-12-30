@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from './Header.module.css'
+import AvBookslogo from "../assets/images/logo.png"
 const Header = () => {
   return (
-    <header className={styles.header}>
-        <h1>AV.Books</h1>
-    </header>
+     <header className={styles.header}>
+         <img src={AvBookslogo}/>
+     </header>
   )
 }
 
