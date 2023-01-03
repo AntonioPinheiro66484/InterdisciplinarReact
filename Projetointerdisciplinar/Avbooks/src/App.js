@@ -30,7 +30,7 @@ function App() {
       <BrowserRouter>
       <Header/>
       <NavBar/>
-        <Footer />
+        <Footer/>
       </BrowserRouter>
       </AuthProvider>
     </> 
