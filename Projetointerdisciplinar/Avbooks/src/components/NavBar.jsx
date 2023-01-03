@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
 import styles from './NavBar.module.css'
+import iconMenu from '../assets/icons/iconMenu.png'
 
 const NavBar = () => {
   return (
-    <header className={styles.navBar}>
+    <nav className={styles.navBar}>
           <ul className={styles.paiItems}>
-            <ul className={styles.item}>Best Sellers</ul>
-            <ul className={styles.item}>E-Books</ul>
-            <ul className={styles.item}>Lançamentos</ul>
-            <ul className={styles.item}>Romances</ul>
-            <ul className={styles.item}>Infantins</ul>
-            <ul className={styles.item}>Mangás</ul>
-            <ul className={styles.item}>HQ's</ul>
+            <li className={styles.item}>Best Sellers</li>
+            <li className={styles.item}>E-Books</li>
+            <li className={styles.item}>Lançamentos</li>
+            <li className={styles.item}>Romances</li>
+            <li className={styles.item}>Infantins</li>
+            <li className={styles.item}>Mangás</li>
+            <li className={styles.item}>HQ's</li>
           </ul>
-    </header>
+    </nav>
+    
   )
 }
 
