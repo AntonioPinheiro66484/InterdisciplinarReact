@@ -2,11 +2,11 @@
     display: flex;
     background-color: #6b0ee2;
     color:yellow;
-    margin-left: 100px;
-    margin-top:20px;
 }
 
 .logo{
     height: 100px;
     width: 100px;
+    margin-left: 100px;
+    margin-top:20px;
 }
