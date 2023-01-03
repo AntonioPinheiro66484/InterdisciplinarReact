@@ -4,8 +4,8 @@ import AvBookslogo from "../assets/images/logo.png"
 const Header = () => {
   return (
      <header className={styles.header}>
-         <img src={AvBookslogo}/>
-     </header>
+         <img className={styles.logo} src={AvBookslogo}/>
+      </header>
   )
 }
 
