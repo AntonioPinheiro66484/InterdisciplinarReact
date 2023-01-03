@@ -10,6 +10,7 @@ import {useAuthentication} from './hooks/useAuthentication'
 import { useState, useEffect } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import Perfil from './pages/Perfil/Perfil';
+import Body from './components/Body';
 function App() {
   const [user, setUser] = useState(undefined)
   const {auth} = useAuthentication()
@@ -30,6 +31,7 @@ function App() {
       <BrowserRouter>
       <Header/>
       <NavBar/>
+     <Body/>
         <Footer/>
       </BrowserRouter>
       </AuthProvider>
