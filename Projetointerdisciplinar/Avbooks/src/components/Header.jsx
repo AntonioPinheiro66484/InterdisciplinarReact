@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
-import AvBookslogo from "../assets/images/logo.png"
+import AvBookslogo from "../assets/images/Imagens/logo.png"
 const Header = () => {
   return (
      <header className={styles.header}>
