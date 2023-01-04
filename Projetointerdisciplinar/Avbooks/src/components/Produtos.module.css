@@ -1,0 +1,37 @@
+.caixa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    }
+.produto{
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 32px;
+    border: 2px solid #8163a6;
+    border-radius: 3px;
+    margin-bottom:20px;
+}
+
+.produto .imagem img{
+    width: 200px;
+    height: 200px;
+}
+.descricao{
+    align-items: center;
+    text-align: center;
+}
+.descricao h3{
+    /* trocar a fonte para a do figma */
+    font-family: inter;
+    font-weight: bold;
+    color:#4c3d5f;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.imagem{
+    display: flex;
+}
