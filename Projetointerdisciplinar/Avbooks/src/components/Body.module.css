@@ -1,5 +1,8 @@
 .body{
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .body{
@@ -9,4 +12,10 @@
 .body img{
     width: 100px;
     height: 100px;
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
 }
