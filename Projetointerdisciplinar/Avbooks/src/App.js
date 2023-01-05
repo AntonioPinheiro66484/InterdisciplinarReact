@@ -30,10 +30,10 @@ function App() {
     <> 
       <AuthProvider value={{user}}>
       <BrowserRouter>
-      <Header/>
-      <NavBar/>
-      <Body/>
-        <Footer/>
+            <Header/>
+              <NavBar/>
+                <Body/>
+                  <Footer/>
       </BrowserRouter>
       </AuthProvider>
     </> 
