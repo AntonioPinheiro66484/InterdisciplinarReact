@@ -1,22 +1,35 @@
 .caixa{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
-    
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: 40px;
     }
+
 .produto{
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 32px;
+    height: 400px;
+    margin-right: 70px;
     border: 2px solid #8163a6;
     border-radius: 3px;
     margin-bottom:20px;
+    margin-top: 20px;
 }
 
 .produto .imagem img{
-    width: 200px;
+    width: 150px;
+    padding: 10px 20px;
+    height: 200px;
+}
+.produto .imagem2 img{
+    width: 150px;
+    padding: 10px 20px;
+    height: 200px;
+    text-align: center;
+}
+.produto .imagem3 img{
+    width: 150px;
+    padding: 10px 20px;
     height: 200px;
 }
 .descricao{
