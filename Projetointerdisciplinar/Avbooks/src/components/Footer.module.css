@@ -5,6 +5,42 @@
     align-items: center;
     justify-content: center;
     background-color: #6b0ee2;
-    color:#fff671;
+    color:#ffffff;
     
+}
+
+.caixa{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 140px;
+}
+.lista .items{
+    margin-bottom: -20px ;
+}
+.lista .items .titulo{
+    margin-bottom: 10px;
+    font-size: 26px;
+    display: flex;
+}
+
+.item{
+    padding-bottom: 40px;
+}
+.iconFormaPagamento{
+    font-size: 26px;
+    margin-bottom: 65px;   
+}
+.iconFooter{
+    display: inline-flex;
+    width: 40px;
+    height: 34px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 10px;
 }
