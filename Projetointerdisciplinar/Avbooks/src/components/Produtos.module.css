@@ -12,7 +12,6 @@
     margin-right: 70px;
     border: 2px solid #8163a6;
     border-radius: 3px;
-    margin-bottom:20px;
     margin-top: 20px;
 }
 
@@ -21,30 +20,27 @@
     padding: 10px 20px;
     height: 200px;
 }
-.produto .imagem2 img{
-    width: 150px;
-    padding: 10px 20px;
-    height: 200px;
-    text-align: center;
-}
-.produto .imagem3 img{
-    width: 150px;
-    padding: 10px 20px;
-    height: 200px;
-}
+
 .descricao{
     align-items: center;
     text-align: center;
 }
-.descricao h3{
+.descricao .nomeLivro{
+    /* trocar a fonte para a do figma */
+    font-family: inter;
+    color:#4c3d5f;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.descricao .precoLivro{
     /* trocar a fonte para a do figma */
     font-family: inter;
     font-weight: bold;
     color:#4c3d5f;
     font-size: 22px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    
 }
-.imagem{
-    display: flex;
-}
+
