@@ -24,7 +24,7 @@
 }
 .lista .items .titulo{
     margin-bottom: 10px;
-    font-size: 26px;
+    font-size: 24px;
     display: flex;
 }
 
@@ -32,7 +32,7 @@
     padding-bottom: 40px;
 }
 .iconFormaPagamento{
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 65px;   
 }
 .iconFooter{
@@ -42,5 +42,5 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }

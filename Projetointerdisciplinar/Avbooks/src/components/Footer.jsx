@@ -8,8 +8,11 @@ import Mastercard from '../assets/icons/mastercard.png'
 import Paypal from '../assets/icons/paypal.png'
 import Visto from '../assets/icons/visto.png'
 
+
+
 const Footer = () => {
   return (
+    
     <footer className={styles.footer}>
         <div className={styles.caixa}>
             <div className={styles.lista}>
