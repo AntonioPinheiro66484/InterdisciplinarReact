@@ -12,6 +12,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import Perfil from './pages/Perfil/Perfil';
 import Body from './components/Body';
 import Produtos from './components/Produtos';
+import PreFooter from './components/PreFooter'
 function App() {
   const [user, setUser] = useState(undefined)
   const {auth} = useAuthentication()
@@ -33,6 +34,7 @@ function App() {
             <Header/>
               <NavBar/>
                 <Body/>
+                <PreFooter/>
                   <Footer/>
       </BrowserRouter>
       </AuthProvider>
