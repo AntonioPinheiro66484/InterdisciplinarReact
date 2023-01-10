@@ -22,3 +22,16 @@
     padding: 32px;
     font-size: 24px;
 }
+
+.caixaIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.icons{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
