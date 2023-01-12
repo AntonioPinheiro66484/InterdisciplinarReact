@@ -22,17 +22,44 @@
 .barraPesquisa{
     margin-top:40px;
     display: flex;
-    background: #ffffff;
-    width: 600px;
-    height: 80x;
+    background: #fff;
+    width: 500px;
+    height: 40px;
     border: 2px solid #fff;
+    border-right: #fff;
+    font-size: 18px;
     border-radius: 10px;
-
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.quadrado{
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+}
+.caixaLupa{
+    border: 2px solid #ffffff;
+    width:35px ;
+    height: 36px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.lupa{
+    display: flex;
+    width: 30px;
+    height: 30px;
 }
 
 .icons{
     display: flex;
 }
+
 .icon{
     display: flex;
     padding-right: 60px;
