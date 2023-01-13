@@ -8,17 +8,19 @@
     }
 
 .produto{
+    
     height: 400px;
-    margin-right: 70px;
+    margin-right: 60px;
     border: 2px solid #8163a6;
+    padding: 20px;
     border-radius: 3px;
     margin-top: 20px;
 }
 
 .produto .imagem img{
-    width: 150px;
+    width: 165px;
     padding: 10px 20px;
-    height: 200px;
+    height: 215px;
 }
 
 .descricao{

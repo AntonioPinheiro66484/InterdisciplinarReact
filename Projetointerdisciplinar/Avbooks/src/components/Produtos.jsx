@@ -4,6 +4,7 @@ import styles from './Produtos.module.css'
 import Livro1 from '../assets/images/Livros/Gravity Falls - O diário perdido.png'
 import Livro2 from '../assets/images/Livros/A Arte da Guerra.png'
 import Livro3 from '../assets/images/Livros/It- A coisa.png'
+import Livro4 from '../assets/images/Livros/Cemitério Maldito.png'
 
 const Produtos =()=>{
     return(
@@ -40,8 +41,19 @@ const Produtos =()=>{
                                     <Botao/>
                                 </div>
                         </div>
+
+                        <div className={styles.produto}>
+                                <div className={styles.imagem}>
+                                    <img src={Livro4} alt="Cemitério Maldito"/>
+                                </div>
+                                <div className={styles.descricao}>
+                                    <h3 className={styles.nomeLivro}>Cemitério Maldito</h3>
+                                    <h3 className={styles.precoLivro}>R$ 60,00</h3>
+                                    <Botao/>
+                                </div>
+                        </div>
                     </div>
-            
+                    
     )
 
 }
