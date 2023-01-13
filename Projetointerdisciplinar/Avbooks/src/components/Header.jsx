@@ -8,6 +8,7 @@ const Header = () => {
   return (
      <header className={styles.header}>
          <img className={styles.logo} src={AvBookslogo}/>
+         <div titulosLogos>A.V. Books</div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text"/>
             <div className={styles.caixaLupa}>
@@ -16,7 +17,9 @@ const Header = () => {
          </div>
          <div className={styles.icons}>
             <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
+            <div titulosLogos>Perfil</div>
             <img className={styles.icon} src={Carrinho} alt="icone de carrinho do cliente"/>
+            <div titulosLogos>Carrinho</div>
          </div>
       </header>
   )
