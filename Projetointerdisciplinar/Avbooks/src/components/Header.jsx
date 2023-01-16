@@ -9,7 +9,7 @@ const Header = () => {
      <header className={styles.header}>
        <div className={styles.caixaLogo}>
          <img className={styles.logo} src={AvBookslogo}/>
-         <div className={styles.titulosLogos}>A.V. Books</div>
+         <div className={styles.titulosLogoSite}>A.V. Books</div>
        </div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text"/>
