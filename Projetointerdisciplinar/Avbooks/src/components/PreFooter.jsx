@@ -10,7 +10,7 @@ const PreFooter = ()=>{
     return(
         <div className={styles.subfooter}>
             <img className={styles.logo} src={AvBookslogo}/>
-            <div className={styles.nomelogo}>A.V Books</div>
+            <div className={styles.nomelogo}>A.V. Books</div>
             <div className={styles.caixaIcons}>
                 <img className={styles.icons} src={Facebook} alt="Logo para ir para nossa rede social no Facebook" />
                 <img className={styles.icons} src={Instagram} alt="Logo para ir para nossa rede social no Instagram" />

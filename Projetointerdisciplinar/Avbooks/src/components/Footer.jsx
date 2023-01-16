@@ -17,7 +17,7 @@ const Footer = () => {
         <div className={styles.caixa}>
             <div className={styles.lista}>
                 <ul className={styles.items}>
-                  <li className={styles.titulo}>Sobre o A.V Books</li>
+                  <li className={styles.titulo}>Sobre a A.V. Books</li>
                   <li className={styles.item}>Quem somos ?</li>
                   <li className={styles.item}>Trabalhe conosco</li>
                   <li className={styles.item}>Acessibilidade</li>
