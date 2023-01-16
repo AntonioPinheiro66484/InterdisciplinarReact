@@ -7,8 +7,10 @@ import Lupa from '../assets/icons/lupa.png'
 const Header = () => {
   return (
      <header className={styles.header}>
+       <div className={styles.caixaLogo}>
          <img className={styles.logo} src={AvBookslogo}/>
-         <div titulosLogos>A.V. Books</div>
+         <div className={styles.titulosLogos}>A.V. Books</div>
+       </div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text"/>
             <div className={styles.caixaLupa}>
@@ -16,10 +18,14 @@ const Header = () => {
             </div>
          </div>
          <div className={styles.icons}>
-            <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
-            <div titulosLogos>Perfil</div>
-            <img className={styles.icon} src={Carrinho} alt="icone de carrinho do cliente"/>
-            <div titulosLogos>Carrinho</div>
+            <div className={styles.caixaIcones}>
+               <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
+               <div className={styles.titulosLogos}>Perfil</div>
+            </div>
+            <div className={styles.caixaIcones}>
+               <img className={styles.icon} src={Carrinho} alt="icone de carrinho do cliente"/>
+               <div className={styles.titulosLogos}>Carrinho</div>
+            </div>
          </div>
       </header>
   )
