@@ -13,6 +13,7 @@ import Perfil from './pages/Perfil/Perfil';
 import Body from './components/Body';
 import Produtos from './components/Produtos';
 import PreFooter from './components/PreFooter'
+import Carrossel from './components/Carrossel';
 
 
 function App() {
@@ -32,9 +33,11 @@ function App() {
   return (
     <> 
       <AuthProvider value={{user}}>
+      
       <BrowserRouter>
             <Header/>
               <NavBar/>
+              <Carrossel/>
                 <Body/>
                 <PreFooter/>
                   <Footer/>
