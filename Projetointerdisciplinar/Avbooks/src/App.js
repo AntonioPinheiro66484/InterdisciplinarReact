@@ -35,7 +35,7 @@ function App() {
       <AuthProvider value={{user}}>
       
       <BrowserRouter>
-            <Header/>
+             <Header/>
               <NavBar/>
               <Carrossel/>
                 <Body/>
