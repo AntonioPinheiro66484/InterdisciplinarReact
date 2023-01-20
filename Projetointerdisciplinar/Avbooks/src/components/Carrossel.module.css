@@ -1,4 +1,54 @@
-.livro{
-    width: 100px;
-    height: 100px;
+.App{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px; 
 }
+.cardProdutos{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;   
+}
+
+.card{
+    display: flex;
+    padding-left: 30px;
+   
+}
+.borda{
+    height: 400px;
+    margin-right: 60px;
+    border: 2px solid #8163a6;
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-top: 30px ;
+    
+}
+
+.propriedades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.livro{
+    width: 165px;
+    height: 215px;
+}
+
+.nomeLivro{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4c3d5f;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.precoLivro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#4c3d5f;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+

@@ -3,62 +3,150 @@ import styles from "./Carrossel.module.css"
 import Slider from "react-slick";
 import Livro1 from '../assets/images/Livros/A Arte da Guerra.png'
 import Livro2 from '../assets/images/Livros/Cemitério Maldito.png'
-import Livro3 from '../assets/images/Livros/FNAF - Olhos Prateados.png'
-import Livro4 from '../assets/images/Livros/Gravity Falls - O diário perdido.png'
-import Livro5 from '../assets/images/Livros/It- A coisa.png'
-import Livro6 from '../assets/images/Livros/Jogos Vorazes.png'
-
+import Livro3 from '../assets/images/Livros/Gravity Falls - O diário perdido.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Botao from "./Botao";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#8163A6" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#8163A6" }}
+      onClick={onClick}
+    />
+  );
+}
+
 const Carrossel = ()=>{
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
       };
     return(
-      <div>
+      <div className={styles.App}>
         <Slider {...settings}>
-          <div>
-            <h3>A arte da Guerra</h3>
-            <img className={styles.livro} src={Livro1}></img>
+        
+          <div className={styles.card}>
+            <div className={styles.borda}>
+              <div className={styles.propriedades}>
+                <img className={styles.livro} src={Livro1}></img>
+                <h3 className={styles.nomeLivro}>A arte da Guerra</h3>
+                <h3 className={styles.precoLivro}>R$ 60,00</h3>
+                <Botao/>
+              </div>
+              </div>
           </div>
-          <div>
-            <h3>Comitério Maldito</h3>
-            <img className={styles.livro} src={Livro2}></img>
 
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro2}></img>
+              <h3 className={styles.nomeLivro}>Comitério Maldito</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3>FNAF - Olhos Prateados</h3>
-            <img className={styles.livro} src={Livro3}></img>
+          
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
+          </div>
 
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3> Gravity Falls </h3>
-            <img className={styles.livro} src={Livro4}></img>
 
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3>Jogos Vorazes</h3>
-            <img className={styles.livro} src={Livro5}></img>
 
+         
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3> Manual do Império</h3>
-            <img className={styles.livro} src={Livro6}></img>
 
+          
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3>Mitologia Nordica</h3>
+
+          
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3>O caminho Jedi</h3>
+
+          
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro3}></img>
+              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
           </div>
-          <div>
-            <h3>O homem de giz</h3>
-          </div>
+        
         </Slider>
       </div>
     );
